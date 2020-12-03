@@ -139,6 +139,7 @@ release_project:
 2. `script`中`firebase`的指令需先在Runner的電腦上安裝`Firebase CLI`，啟用Firebase指令並取得`token`後才可正常執行，詳情請見[Firebase CLI 安裝與取得Token](#Firebase_CLI_Install)
 
 <h2 id="Xcodebuild_Archive_Setting">Xcodebuild Archive設置</h2>
+
 1. `xcodebuild archive`指令：用於輸出`.xcarchive`檔，與Xcode內的`Archive`相同
 		
 	Demo
@@ -178,7 +179,6 @@ release_project:
 	7. 開啟輸出資料夾，即可發現`ExportOptions.plist`<br>![find_export_options](find_export_options.png)
 
 <h2 id="Firebase_CLI_Install">Firebase CLI 安裝與取得Token</h2>
-----
 
 ### 安裝
 
@@ -205,11 +205,16 @@ firebase login:ci
 
 [參考資料](https://firebase.google.com/docs/app-distribution/ios/distribute-cli?authuser=0#distribute)
 
-1. <h7 id="get_app_id">取得`App ID`</h7>：開啟Firebase Console，點擊左上角「齒輪」進入「專案設定」![project_settings](project_settings.png) <br> 選擇指定的應用程式，即可看到`應用程式ID`![app_ID](app_ID.png)
+1. <h5 id="get_app_id">取得`App ID`:</h5> 
 
-2. <h7 id="set_test_group">設置測試群組</h7>：進入Firebase App Distribution頁面![app_distribution](app_distribution.png)  <br> 點擊 **邀請連結** 的功能分頁，新增邀請連結，並將新增的連結分享給測試人員 ![invite_link](invite_link.png)<br>測試人員同意邀請後，即可在**測試人員和群組**的功能分頁中看到，並可以透過**新增群組**功能將指定的人員分配至指定群組中![test_group_member](test_group_member.png)<br>
-3. <h7 id="setup_release_note">設置Release note</h7>：於專案目錄中新增一個`txt`檔，並於檔案內輸入要顯示的Release note<br>![setup_release_note](setup_release_note.png)
-4. 使用指令上傳`.ipa`至App Distribution
+	開啟Firebase Console，點擊左上角「齒輪」進入「專案設定」<br> ![project_settings](project_settings.png) <br> 選擇指定的應用程式，即可看到`應用程式ID`<br> ![app_ID](app_ID.png)
+2. <h5 id="set_test_group">設置測試群組:</h5>
+
+	進入Firebase App Distribution頁面 <br> ![app_distribution](app_distribution.png)  <br> 點擊 **邀請連結** 的功能分頁，新增邀請連結，並將新增的連結分享給測試人員 <br> ![invite_link](invite_link.png) <br> 測試人員同意邀請後，即可在**測試人員和群組**的功能分頁中看到，並可以透過**新增群組**功能將指定的人員分配至指定群組中 <br> ![test_group_member](test_group_member.png)<br>
+3. <h5 id="setup_release_note">設置Release note: </h5>
+
+	於專案目錄中新增一個`txt`檔，並於檔案內輸入要顯示的Release note <br> ![setup_release_note](setup_release_note.png)
+4. <h5>使用指令上傳`.ipa`至App Distribution</h5>
 
 	Demo
 		
@@ -217,13 +222,13 @@ firebase login:ci
 
 
 	參數說明
-	> `--app`：輸入取得的[APP ID](#get_app_id)
+	> `--app`：輸入取得的 [APP ID](#get_app_id)
 	
-	> `--groups`：輸入設定的[測試群組](#set_test_group)名稱，也可以透過`--groups-file`參數，讀取指定的`.txt`檔
+	> `--groups`：輸入設定的 [測試群組](#set_test_group) 名稱，也可以透過`--groups-file`參數，讀取指定的`.txt`檔
 	
-	> `--release-notes-file`：輸入[Release note的路徑](#setup_release_note)，也可以透過`--release-notes`直接輸入
+	> `--release-notes-file`：輸入 [Release note的路徑](#setup_release_note) ，也可以透過`--release-notes`直接輸入
 	
-	> `--token`：輸入取得的[Token](#Get_Token)
+	> `--token`：輸入取得的 [Token](#Get_Token)
 	
 	> `--debug`：將指令執行結果紀錄至log file內，log file會自動於根目錄產生
 	
@@ -232,9 +237,9 @@ firebase login:ci
 執行結果
 ----
 
-####Job執行成功
+#### Job執行成功
 ![Job_success1](Job_success1.png)
 ![Job_success2](Job_success2.png)
 
-####成功上傳至Firebase App Distribution
+#### 成功上傳至Firebase App Distribution
 ![upload_firebase_app_distribution_success](upload_firebase_app_distribution_success.png)
