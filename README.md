@@ -44,19 +44,18 @@ Install gitlab-runner
 	需要輸入以下資訊：
 		
 	> 輸入GitLab server ip
-	>>公司gitlab：10.16.3.24<br>
-
-	>輸入Token<br>
-	>>Token可以從「gitlab > Settings > CI/CD > Runners >
-	 Expand > Set up a specific Runner manually > Point 3.」取得<br>
-	>
-	>輸入描述，之後在GitLab網站上作設定<br>
+	>>https://gitlab.com/
 	
-	>輸入標籤(tag)，可以用來決定之後的job要在哪個Runner上執行，也可以稍後再設定<br>
-	>>輸入「release」<br>
-	>
-	設定executor，可以使用Docker作為模擬編譯環境<br>
-	>> 輸入「Shell」<br>
+	>輸入Token<br>
+	>>Token可以從「gitlab > Settings > CI/CD > Runners > Expand > Set up a specific Runner manually > Point 3.」取得
+	
+	>輸入描述，之後在GitLab網站上作設定
+	
+	>輸入標籤(tag)，可以用來決定之後的job要在哪個Runner上執行，也可以稍後再設定
+	>>輸入「release」
+	
+	>設定executor，可以使用Docker作為模擬編譯環境
+	>> 輸入「Shell」
 
 4. 確認Runner是否正常運作
 	> 在「gitlab > Settings > CI/CD > Runners > Expand」可查看Runner狀態
