@@ -9,8 +9,8 @@ Fastlane是一個使用Ruby語言所撰寫的Terminal tool，可以透過撰寫�
 
 以下舉例說明：
 
-> 撰寫腳本：
-> 
+- 撰寫腳本：
+ 
 ```Ruby
 lane :beta do
   increment_build_number
@@ -18,14 +18,14 @@ lane :beta do
   upload_to_testflight
 end
 ```
-> 執行腳本： 
-> 
+- 執行腳本： 
+ 
 ```Bash
 	$ fastlane beta
 ```
-> 執行結果：
-> 
-> 增加版本號、建置專案、上傳至TestFlight（若建置失敗則會跳出腳本並報錯）
+- 執行結果：
+ 
+  - 增加版本號、建置專案、上傳至TestFlight（若建置失敗則會跳出腳本並報錯）
 
 
 安裝與設置
