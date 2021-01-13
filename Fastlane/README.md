@@ -50,13 +50,13 @@ sudo gem install fastlane -NV
 ```
 ### 設置
 
-#### 於專案根目錄執行以下指令
+- 於專案根目錄執行以下指令
 	
 ```
 fastlane init
 ```
 
-#### 接下來會問一些問題：
+- 接下來會問一些問題：
 	
 1. Fastlane預計用來幹嘛？
 	![Fastlane用途](fastlane_init_question1.png)
@@ -73,20 +73,20 @@ fastlane init
 	> 無法存取的畫面如下
 	> ![Apple ID權限不足](Apple_ID_cannot_access.png)
 		
-#### 完成後會有一連串的說明與引導提示
+- 完成後會有一連串的說明與引導提示
 	
 1. 初始化成功，產生了「Fastfile」、「Appfile」、「Gemfile」等三個檔案
-![Success](init_success1.png)
-> ![Success](fastlane_init_file.png)
+	![Success](init_success1.png)
+	> ![Success](fastlane_init_file.png)
 
 1. fastlane說明(還很好心的說明隱私資料不會被上傳)
-![Success2](init_success2.png)
+	![Success2](init_success2.png)
 	
 1. 提示如何客製化腳本
-![Success3](init_success3.png)
+	![Success3](init_success3.png)
 	
 1. 一些文件的網址
-![Success4](init_success4.png)
+	![Success4](init_success4.png)
 
 檔案說明(Fastfile、Appfile、Gemfile)
 ----
