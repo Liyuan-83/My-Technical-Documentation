@@ -4,6 +4,8 @@ Ex. iOS project
 
 CI/CD工作流程簡述
 ----
+![工作流程示意圖](https://cdn-images-1.medium.com/max/800/1*XCj_pMF93Bw2i_mbYyMRXg.png)
+
 觸發時機：將「commit提交」或使用「merge request合併」至GitLab指定分支
 
 工作流程：(先設定好`.gitlab-ci.yml`檔案，並於Runner上安裝Firebase CLI)
