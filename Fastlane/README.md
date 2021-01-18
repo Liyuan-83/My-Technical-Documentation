@@ -29,7 +29,7 @@ end
 
 - 結合Gitlab-CI
 
-  需在Gitlab Runner上預先設置`Fastlane`的環境，並在`.gitlab-ci.yml`中新增`Fastlane`指令，最後將`Fastlane`所需使用的腳本(`fastfile`、`gemfile`等)上傳至`gitlab`上即可。
+  需在Gitlab Runner上預先設置`Fastlane`的環境，並在`.gitlab-ci.yml`中新增`Fastlane`指令，最後將`Fastlane`所需使用的腳本(`fastfile`、`gemfile`等)上傳至`gitlab`上即可。
 
 安裝與設置
 ----
