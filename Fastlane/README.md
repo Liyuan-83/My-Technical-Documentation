@@ -3,7 +3,7 @@ Fastlane使用教學
 
 Fastlane簡介
 ----
-Fastlane是一個使用Ruby語言所撰寫的Terminal tool，可以透過撰寫字定義的「lane」(腳本)來達成建置、測試、簽署、發布、上架、來源控制(Soure Control)等常使用在Terminal的指令，下圖為官網中 **吹噓的優點**。
+Fastlane是一個使用Ruby語言所撰寫的Terminal tool，可以透過撰寫字定義的「lane」(腳本)來達成建置、測試、簽署、發布、上架、來源控制(Soure Control)等常使用在Terminal的指令，下圖為官網中 **描述的優點**。
 
 ![fastlane_advantage](fastlane_advantage.png)
 
