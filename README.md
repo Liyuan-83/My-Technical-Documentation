@@ -9,4 +9,4 @@
 3. 使用XCTest撰寫自動化測試&一些測試技巧(待完成)
  
 ### 其他
-1. 架設gitolite伺服器
+1. [架設gitolite伺服器](Gitolite_Server)
