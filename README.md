@@ -33,6 +33,6 @@
 1. [架設gitolite伺服器](Gitolite_Server)
 
 ### 小問題紀錄
-1. [Gitlab或Github遇到Port 22:Connection time out](小問題\Port22_Connection_time_out)
+1. [Gitlab或Github遇到Port 22:Connection time out](小問題/Port22_Connection_time_out)
 
 OS. 實在是有點多啊，有空再來慢慢還 orz
