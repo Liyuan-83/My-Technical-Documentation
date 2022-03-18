@@ -6,7 +6,7 @@
 ### iOS
 1. [使用gitlab-ci-runner結合Firebase App Distribution達成CI/CD工作流程](GitLab_Ci_&_Firebase)
 1. [使用Fastlane達成自動化編譯、測試、部署](Fastlane)
-1. [使用XCTest撰寫自動化測試&一些測試技巧(撰寫中...)](UITest_iOS)
+1. [使用XCTest撰寫自動化測試&一些測試技巧](UITest_iOS)
 1. 客製化的Siri捷徑與自訂義腳本
 1. 支援Widget小工具
 1. 支援無障礙(Accessibility)
@@ -27,7 +27,6 @@
 1. 使用MQTT和Crontab定期透過腳本(Python)將硬體資訊上傳至雲端儲存
 1. 使用Docker結合MQTT、資料蒐集(telegraf)、Database(InfluxDB)、前端圖表(Grafana)顯示硬體狀態
 1. 透過lighttpd建立API(C/Python)控制硬體(OpenWrt)
-1. 使用FastAPI工具建立API發送MQTT廣播控制硬體裝置
 
 
 ### 其他
