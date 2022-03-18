@@ -26,7 +26,7 @@
 1. 使用工具鏈(toolchain)將mosquitto(MQTT)資源庫安裝至Nas(Linux base)上
 1. 使用MQTT和Crontab定期透過腳本(Python)將硬體資訊上傳至雲端儲存
 1. 使用Docker結合MQTT、資料蒐集(telegraf)、Database(InfluxDB)、前端圖表(Grafana)顯示硬體狀態
-1. 透過lighttpd建立API(C/Python)控制硬體(OpenWrt/linux base)
+1. 透過lighttpd建立API(C/Python)控制硬體(OpenWrt)
 1. 使用FastAPI工具建立API發送MQTT廣播控制硬體裝置
 
 
