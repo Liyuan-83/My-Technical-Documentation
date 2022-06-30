@@ -28,7 +28,7 @@
 1. 使用 MQTT 和 Crontab 定期透過腳本(Python)將硬體資訊上傳至雲端儲存
 1. 使用 Docker 結合 MQTT、資料蒐集(telegraf)、Database(InfluxDB)、前端圖表(Grafana)顯示硬體狀態
 1. 透過 lighttpd 建立 API(C/Python)控制硬體(OpenWrt)
-1. [建置 MQTT Client，並使用 MQTT 控制硬體執行 FW 更新](FW_Dev\MQTT_Client)
+1. [建置 MQTT Client，並使用 MQTT 控制硬體執行 FW 更新](FW_Dev/MQTT_Client)
 
 ### 其他
 
