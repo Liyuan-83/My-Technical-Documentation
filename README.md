@@ -25,7 +25,7 @@
 ### 韌體(Linux)和 IOT
 
 1. 使用工具鏈(toolchain)將 mosquitto(MQTT)資源庫安裝至 Nas(Linux base)上
-1. 使用 MQTT 和 Crontab 定期透過腳本(Python)將硬體資訊上傳至雲端儲存
+1. [使用 MQTT 和 Crontab 定期透過腳本(Python)將硬體資訊上傳至雲端儲存](FW_Dev\MQTT_script_develop)
 1. 使用 Docker 結合 MQTT、資料蒐集(telegraf)、Database(InfluxDB)、前端圖表(Grafana)顯示硬體狀態
 1. 透過 lighttpd 建立 API(C/Python)控制硬體(OpenWrt)
 1. [建置 MQTT Client，並使用 MQTT 控制硬體執行 FW 更新](FW_Dev/MQTT_Client)
@@ -39,3 +39,10 @@
 1. [Gitlab 或 Github 遇到 Port 22:Connection time out](小問題/Port22_Connection_time_out)
 
 OS. 實在是有點多啊，有空再來慢慢還 orz
+
+# 作品與維護專案
+
+1. [密錄器 APP(iOS)](Portfolios/DPB_APP)
+2. [密錄器工具軟體(MacOS)](Portfolios/DPB_TOOLBOX_Mac)
+3. [密錄器監控系統](Portfolios/DPB_Control_Center2)
+4. [密錄器監控軟體(Windows)](Portfolios/DPB_Control_Center_Win)
