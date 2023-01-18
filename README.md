@@ -44,5 +44,5 @@ OS. 實在是有點多啊，有空再來慢慢還 orz
 
 1. [密錄器 APP(iOS)](Portfolios/DPB_APP)
 2. [密錄器工具軟體(MacOS)](Portfolios/DPB_TOOLBOX_Mac)
-3. [密錄器監控系統](Portfolios/DPB_Control_Center2)
-4. [密錄器監控軟體(Windows)](Portfolios/DPB_Control_Center_Win)
+3. 密錄器監控系統<!--](Portfolios/DPB_Control_Center2)-->
+4. 密錄器監控軟體(Windows)<!--](Portfolios/DPB_Control_Center_Win)-->
